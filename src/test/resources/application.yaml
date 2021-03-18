@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    schema: my_schema.sql
+    data: my_test_data.sql
+    url: jdbc:h2:mem:testdb
