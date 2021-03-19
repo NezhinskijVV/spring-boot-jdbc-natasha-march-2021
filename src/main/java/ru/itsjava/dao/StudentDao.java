@@ -2,7 +2,10 @@ package ru.itsjava.dao;
 
 import ru.itsjava.domain.Student;
 
+import java.util.Optional;
+
 public interface StudentDao {
     int countStudents();
-    void insertStudent(Student student);
+    long insertStudent(Student student);
+    Optional<Student> findById(long id);
 }

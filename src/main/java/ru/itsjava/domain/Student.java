@@ -10,4 +10,5 @@ import lombok.RequiredArgsConstructor;
 public class Student {
     private long id;
     private final String fio;
+    private final Faculty faculty;
 }
